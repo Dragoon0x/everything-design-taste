@@ -1,0 +1,40 @@
+{
+  "hooks": [
+    {
+      "matcher": "tool == 'Edit' || tool == 'Write'",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node scripts/hooks/check-ai-tone.js"
+        }
+      ]
+    },
+    {
+      "matcher": "tool == 'Edit' && tool_input.file_path matches '\\.(tsx|jsx|html|css)$'",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node scripts/hooks/check-contrast.js"
+        }
+      ]
+    },
+    {
+      "matcher": "tool == 'Edit' && tool_input.file_path matches '\\.(tsx|jsx|css|scss)$'",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node scripts/hooks/check-consistency.js"
+        }
+      ]
+    },
+    {
+      "matcher": "tool == 'Edit' && tool_input.file_path matches '\\.(tsx|jsx)$'",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "node scripts/hooks/check-naming.js"
+        }
+      ]
+    }
+  ]
+}

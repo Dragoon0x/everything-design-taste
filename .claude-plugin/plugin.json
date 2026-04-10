@@ -1,0 +1,14 @@
+{
+  "name": "edt",
+  "version": "1.0.0",
+  "description": "Everything Design Taste — A taste system for AI agents",
+  "author": "0xDragoon",
+  "license": "MIT",
+  "homepage": "https://github.com/0xDragoon/everything-design-taste",
+  "components": {
+    "agents": "agents/",
+    "skills": "skills/",
+    "rules": "rules/",
+    "contexts": "contexts/"
+  }
+}

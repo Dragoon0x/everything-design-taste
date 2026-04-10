@@ -1,0 +1,31 @@
+{
+  "name": "everything-design-taste",
+  "version": "1.0.0",
+  "description": "A taste system for AI agents. Skills, agents, rules, and hooks that turn generic AI output into work with genuine design quality.",
+  "author": "0xDragoon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xDragoon/everything-design-taste"
+  },
+  "keywords": [
+    "design",
+    "taste",
+    "ai-agents",
+    "claude",
+    "claude-code",
+    "design-system",
+    "product-design",
+    "skills",
+    "anti-slop"
+  ],
+  "scripts": {
+    "test": "node tests/run-all.js",
+    "install-edc": "bash install.sh --profile standard",
+    "install-full": "bash install.sh --profile full",
+    "install-minimal": "bash install.sh --profile minimal"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
