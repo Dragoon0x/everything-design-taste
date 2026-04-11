@@ -3,9 +3,9 @@
 > **A taste system for AI agents.** Skills, agents, rules, and hooks that turn generic AI output into work with genuine design quality.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-22-green.svg)](#whats-inside)
-[![Agents](https://img.shields.io/badge/agents-10-orange.svg)](#whats-inside)
-[![Rules](https://img.shields.io/badge/rules-8-red.svg)](#whats-inside)
+[![Skills](https://img.shields.io/badge/skills-288-green.svg)](#whats-inside)
+[![Agents](https://img.shields.io/badge/agents-80-orange.svg)](#whats-inside)
+[![Rules](https://img.shields.io/badge/rules-12-red.svg)](#whats-inside)
 
 ---
 
@@ -321,4 +321,29 @@ MIT. Use freely, modify as needed, contribute back if you can.
 
 ---
 
-**By [Dragoon0x](https://github.com/Dragoon0x). Star this repo if it helps. Read the guides. Build something with taste.**
+**By [0xDragoon](https://github.com/0xDragoon). Star this repo if it helps. Read the guides. Build something with taste.**
+
+### Extended Skill Categories
+
+| Category | Count | Coverage |
+|----------|-------|----------|
+| **UI Patterns** | 30 | Forms, navigation, tables, modals, search, cards, buttons, notifications, pagination, tabs, sidebars, and more |
+| **Industry Design** | 20 | Fintech, healthcare, e-commerce, education, media, SaaS, marketplace, developer tools, social, gaming, travel, food delivery, and more |
+| **Platform Design** | 15 | iOS, Android, desktop, tablet, watch, TV, email, voice UI, AR/VR, kiosk, PWA, accessibility deep, i18n |
+| **Content & Writing** | 20 | Microcopy, landing pages, technical writing, social media, changelogs, error messages, onboarding copy, SEO, blog design, and more |
+| **Visual Craft** | 20 | Data visualization, illustration, gradients, shadows, borders, image optimization, dark mode, density, whitespace, glassmorphism, and more |
+| **Product & Business** | 15 | Retention, growth, A/B testing, pricing, design economics, competitive analysis, user journeys, personas, and more |
+| **Design Process** | 10 | Design sprints, usability testing, workshops, handoff, critique facilitation, design ops, portfolio building, and more |
+| **Core** | 22 | Anti-slop, typography, color, layout, brand voice, motion, responsive, case studies, pitch decks, and the original skill set |
+
+### Extended Agent Categories
+
+| Category | Count | Focus |
+|----------|-------|-------|
+| **UI Specialists** | 10 | Form, navigation, table, dashboard, mobile, interaction, conversion, layout, icon, animation review |
+| **Industry Experts** | 8 | Fintech, e-commerce, healthcare, SaaS, marketplace, developer experience, education, social platform |
+| **Content Specialists** | 8 | Copy, SEO, documentation, email, accessibility, localization, notification, UX writing review |
+| **Process Agents** | 6 | Research planning, workshop facilitation, sprint planning, design ops, competitive analysis, metrics |
+| **Strategy Agents** | 6 | Growth, onboarding, pricing, retention, data storytelling, design research |
+| **Technical Agents** | 6 | Performance, responsive, dark mode, design tokens, CSS architecture, component API review |
+| **Core** | 10 | Design review, brand, product strategy, copy editing, design systems, UX research, visual QA, pitch, content, art direction |

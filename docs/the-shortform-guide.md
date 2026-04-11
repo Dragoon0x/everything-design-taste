@@ -25,8 +25,8 @@ npm install
 
 ## What's Inside
 
-- **10 agents** — Specialized reviewers for design, brand, product, copy, visual QA, and more
-- **22 skills** — Domain knowledge from typography to pitch decks to competitive teardowns
+- **80 agents** — Specialized reviewers for design, brand, product, copy, visual QA, and more
+- **288 skills** — Domain knowledge from typography to pitch decks to competitive teardowns
 - **8 rules** — Always-on quality gates for taste, hierarchy, anti-slop, writing, and accessibility
 - **4 hooks** — Automated checks for AI tone, contrast, consistency, and naming
 - **5 design templates** — Ready-to-use design systems for different aesthetics

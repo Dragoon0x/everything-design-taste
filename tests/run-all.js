@@ -36,7 +36,7 @@ const agentsDir = path.join(ROOT, 'agents');
 const agents = fs.readdirSync(agentsDir).filter((f) => f.endsWith('.md'));
 
 test('agents directory exists and has files', () => {
-  assert(agents.length >= 10, `Expected >=10 agents, found ${agents.length}`);
+  assert(agents.length >= 50, `Expected >=10 agents, found ${agents.length}`);
 });
 
 agents.forEach((agent) => {
@@ -58,7 +58,7 @@ const skillDirs = fs.readdirSync(skillsDir).filter((d) => {
 });
 
 test('skills directory has expected count', () => {
-  assert(skillDirs.length >= 20, `Expected >=20 skills, found ${skillDirs.length}`);
+  assert(skillDirs.length >= 200, `Expected >=20 skills, found ${skillDirs.length}`);
 });
 
 skillDirs.forEach((skill) => {
