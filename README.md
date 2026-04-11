@@ -321,7 +321,7 @@ MIT. Use freely, modify as needed, contribute back if you can.
 
 ---
 
-**By [0xDragoon](https://github.com/0xDragoon). Star this repo if it helps. Read the guides. Build something with taste.**
+**By [Dragoon0x)](https://github.com/Dragoon0x). Star this repo if it helps. Read the guides. Build something with taste.**
 
 ### Extended Skill Categories
 
